@@ -19,6 +19,9 @@ h2{
 [class*="col-"]{
     width: 100%;
 }
+#panel {
+    min-height: 40em;
+}
 header h1{
     background-image: url('../images/KasteelVanMeldert.jpg');
     min-height: 10em;
@@ -26,6 +29,13 @@ header h1{
     background-repeat: repeat-x;
     width: 100%;
     padding: 0.5em;
+}
+footer {
+    background-color: #cccccc;
+    width: 100%;
+    min-height: 4em;
+    padding: 0.5em;
+    clear: both;
 }
 .links{
     background-color: #E0E0E0;
