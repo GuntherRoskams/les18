@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;900&display=swap');
+
+
+* {
+    font-family: 'Montserrat',sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+h1{
+    font-size: 2em;
+    font-weight: 900;
+}
+h2{
+    font-size: 1.6em;
+    font-weight: 400;
+}
+
+[class*="col-"]{
+    width: 100%;
+}
+header h1{
+    background-image: url('../images/KasteelVanMeldert.jpg');
+    min-height: 10em;
+    background-size: contain;
+    background-repeat: repeat-x;
+    width: 100%;
+    padding: 0.5em;
+}
+.links{
+    background-color: #E0E0E0;
+}
+.rechts{
+    background-color: #F9F9F9;
+}
+ol{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+ol li {
+    padding: 1.2em;
+}
+
+ol li:hover, ol li:nth-child(odd):hover{
+    background-color: #F9F9F9;
+    color: black;
+    cursor: pointer;
+}
+
+ol li:nth-child(odd){
+    background-color: #777777;
+    color: #F0F0F0;
+}
+
+.artikel{
+    padding: 0 0.7em;
+    min-height: 13em;
+}
+
+.artikel img{
+    width: 15%;
+    height: auto;
+    float: right;
+    margin-left: 1em;
+}
+
+
+@media only screen and (min-width: 768px){
+    [class*="col-"]{
+        float: left;
+    }
+
+    .col-1{
+        width: 8.33%;
+    }
+    .col-2 {
+        width: 16.66%;
+    }
+    .col-3 {
+        width: 25%;
+    }
+    .col-4 {
+        width: 33.33%;
+    }
+    .col-5 {
+        width: 41.66%;
+    }
+    .col-6 {
+        width: 50%;
+    }
+    .col-7 {
+        width: 58.33%;
+    }
+    .col-8 {
+        width: 66.66%;
+    }
+    .col-9 {
+        width: 75%;
+    }
+    .col-10 {
+        width: 83.33%;
+    }
+    .col-11 {
+        width: 91.66%;
+    }
+    .col-12 {
+        width: 100%;
+    }
+}
